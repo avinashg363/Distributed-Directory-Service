@@ -1,0 +1,11 @@
+modify:
+1. when entity is not there, now it shows success, we also have to display that it is not found
+	---> abhi logfile me aa rha hai.
+	---> nhi aana chahiye.
+	---> initial table me bhi load ho rha hai.
+
+Delete:
+1. when entity is not there, now it shows success, we also have to display that it is not found
+	---> abhi logfile me aa rha hai.
+	---> nhi aana chahiye.
+	---> initial table me bhi load ho rha hai.

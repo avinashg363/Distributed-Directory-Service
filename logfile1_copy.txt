@@ -1,0 +1,3 @@
+Add RKstudent '125' ('125', 'ag', 'RK', 745689L, 21L, None, 's3@gmail.com', 'CSE') 1524853451475
+Update RKstudent '125' ID='125',Name='jihad' 1524853482525
+Rename RKstudent '125' '134' 1524853535748

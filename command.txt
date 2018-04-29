@@ -1,0 +1,21 @@
+Add:
+
+Add IITKGP,KGPCAMPUS,PROFS ID='p3',Name='prof',Address='KGP',Pincode=755445,Age=23,Email='ag@ff',Department='CSE'
+Add IITKGP,KOLKATAGUESTHOUSE,worker ID='w3',Name='worker',Address='KGP',Pincode=755445,Age=23,Email='ag@ff',Department='CSE'
+Add IITKGP,KGPCAMPUS,HALLS,RK,student ID='s2',Name='student1',Address='KGP',Pincode=755467,Age=23,Email='sayan@ff',Department='CSE'
+
+
+delete:
+delete IITKGP,KOLKATAGUESTHOUSE,worker,w3
+delete IITKGP,KGPCAMPUS,PROFS,p3
+delete IITKGP,KGPCAMPUS,HALLS,RK,student,s2
+
+modify:
+modify IITKGP,KGPCAMPUS,PROFS  ID='1',Age=53
+
+mysqldump:
+mysqldump -u root -p DS > dbnew.sql
+
+
+search:
+search IITKGP,KGPCAMPUS,PROFS,iit
