@@ -1,16 +1,21 @@
-Add:
+See the attribute type from mysql database after dumping the dbempty.sql
 
+Add:
+Add <Node_distinguished_name> <attribute=value>
 Add IITKGP,KGPCAMPUS,PROFS ID='p3',Name='prof',Address='KGP',Pincode=755445,Age=23,Email='ag@ff',Department='CSE'
 Add IITKGP,KOLKATAGUESTHOUSE,worker ID='w3',Name='worker',Address='KGP',Pincode=755445,Age=23,Email='ag@ff',Department='CSE'
 Add IITKGP,KGPCAMPUS,HALLS,RK,student ID='s2',Name='student1',Address='KGP',Pincode=755467,Age=23,Email='sayan@ff',Department='CSE'
 
 
 delete:
+Delete <Node_distinguished_name,id_without_quote>
 delete IITKGP,KOLKATAGUESTHOUSE,worker,w3
 delete IITKGP,KGPCAMPUS,PROFS,p3
 delete IITKGP,KGPCAMPUS,HALLS,RK,student,s2
 
 modify:
+
+modify <Node_distinguished_name> <ID=corresponding_id_in_quote,field_attribute=value>
 modify IITKGP,KGPCAMPUS,PROFS  ID='1',Age=53
 
 mysqldump:
@@ -18,4 +23,10 @@ mysqldump -u root -p DS > dbnew.sql
 
 
 search:
+search <Node_distinguished_name,id_without_quote> 
 search IITKGP,KGPCAMPUS,PROFS,iit
+
+
+Rename:
+rename <Node_distinguished_name> <oldid in quote> <newid in quote>
+rename IITKGP,KGPCAMPUS,PROFS '1' '2' 

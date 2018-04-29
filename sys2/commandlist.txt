@@ -1,0 +1,16 @@
+Add IITKGP,KGPCAMPUS,PROFS ID='p3',Name='PPD3',Address='AGadd',Pincode=721333,Age=33,Email='ag@ag.ag',Department='cse'
+
+search IITKGP,KGPCAMPUS,PROFS,p1
+
+Add IITKGP,KOLKATAGUESTHOUSE,worker ID='7',Name='AG2',Address='AGadd',Pincode=721333,Age=33,Email='ag@ag.ag',Department='cse'
+
+Add IITKGP,KGPCAMPUS,HALLS,RK,student ID='s1',Name='AG',Address='AGadd',Pincode=721333,Age=33,Email='ag@ag.ag',Department='cse'
+
+subtreesearch IITKGP,KGPCAMPUS,s1
+
+subtreesearch IITKGP,s1
+
+modify IITKGP,KGPCAMPUS,PROFS ID='p1',Name='PPD'
+
+rename IITKGP,KGPCAMPUS,PROFS 'p1' 'p2'
+

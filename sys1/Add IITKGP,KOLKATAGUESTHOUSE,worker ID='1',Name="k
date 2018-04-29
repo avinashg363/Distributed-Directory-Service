@@ -1,0 +1,10 @@
+Add IITKGP,KOLKATAGUESTHOUSE,worker ID='1',Name="kanti",Address="rk",Pincode=93,Age=23
+Add IITKGP,KGPCAMPUS,HMC,worker ID='99',Name="kanti",Address="rk",Pincode=93,Age=23
+search IITKGP,KOLKATAGUESTHOUSE,worker,99
+modify IITKGP,KOLKATAGUESTHOUSE,worker ID='99',Name="ayush"
+modify IITKGP,KGPCAMPUS,HMC,worker ID='99',Name="ayush"
+rename IITKGP,KOLKATAGUESTHOUSE,worker '1' '2'
+rename IITKGP,KGPCAMPUS,HMC,worker '1' '2'
+delete IITKGP,KOLKATAGUESTHOUSE,worker,1
+subtreesearch IITKGP,KOLKATAGUESTHOUSE,1
+Add IITKGP,KGPCAMPUS,HALLS,RK,student ID='007',Name='avinash',Address='KGP',Pincode=755467,Age=23,Email='sayan@ff',Department='CSE'

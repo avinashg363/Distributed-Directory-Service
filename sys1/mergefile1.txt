@@ -1,0 +1,7 @@
+Add RKstudent '125' ('125','ag','RK',745689L,21L,None,'s3@gmail.com','CSE') 1524853451475
+Update RKstudent '125' ID='125',Name='jihad' 1524853482525
+Rename RKstudent '125' '134' 1524853535748
+Add RKstudent '144' ('144','s3','RK',745689L,21L,None,'s3@gmail.com','CSE') 1524853996098
+Add RKstudent '154' ('154','s3','RK',745689L,21L,None,'s3@gmail.com','CSE') 1524854005292
+Update RKstudent '154' ID='154',Name='jihad' 1524854023231
+Rename RKstudent '144' '164' 1524854054186

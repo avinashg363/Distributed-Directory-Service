@@ -1,0 +1,7 @@
+brew install mysql
+cd /usr/local/var/mysql
+sudo rm -rf Tanbirs-Mac-mini.local.err
+sudo rm -rf Tanbirs-Mac-mini.local.pid
+brew services restart mysql
+mysql -h 127.0.0.1 -u root
+pip install MySQLdb
