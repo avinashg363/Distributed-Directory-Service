@@ -27,5 +27,5 @@
 
 * For commands, refer command.txt<br />
 
-* For implementation details, refer implementation_details.pdf and for report refer Report.pdf
-Although the system works correctly most of the times, the code is not well testes. So any pull request is welcome very much.
+* For implementation details, refer implementation_details.pdf and for report refer Report.pdf.
+* Although the system works correctly most of the times, the code is not well tested. So any pull request is welcome very much.
