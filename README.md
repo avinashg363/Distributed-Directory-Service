@@ -1,5 +1,7 @@
 # Distributed Directory Service <br />
 
+Developed as part of Distributed Systems Course by a 3 member team
+
 * Basic Implementation of a Distributed Directory service like Microsoft Active Directory and openLDAP. Basic LDAP calls like Add,Delete,Modify,Rename,Subtreesearch,Search are implemented.
 
 
